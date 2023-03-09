@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Mada:wght@400;600&family=Poppins:wght@500&family=Raleway:wght@300&family=Roboto:wght@300;700&family=Square+Peg&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/assets/styles/index.css" />
+    <title>YANKI</title>
+  </head>
+  <body>
+    <div class="header_banner">
+      <div class="header">
+        <div class="header_content wrapper">
+          <div class="menu_btn">
+            <button class="burger_menu open_menu">
+              <span class="first_line"></span>
+              <span class="second_line"></span>
+              <span class="third_line"></span>
+            </button>
+          </div>
+          <div class="menu">
+            <ul>
+              <li>NEW</li>
+              <li>КАТАЛОГ</li>
+              <li>О НАС</li>
+            </ul>
+          </div>
+          <!-- Responsive menu -->
+          <div class="menu_responsive">
+            <ul id="ul">
+              <li>NEW</li>
+              <li>КАТАЛОГ</li>
+              <li>О НАС</li>
+              <button class="close_menu">close</button>
+            </ul>
+          </div>
+          <!-- Responsive menu -->
+          <div class="languages">
+            <h1 class="header_heading">YANKI</h1>
+            <div class="first_language">
+              <span>RU</span>
+              <img src="./src/assets/imgs/icon/down-arrow.png" alt="/" />
+            </div>
+            <div>
+              <span class="second_language">UAH</span>
+              <img
+                class="second_language"
+                src="./src/assets/imgs/icon/down-arrow.png"
+                alt="/"
+              />
+            </div>
+          </div>
+          <div class="icons">
+            <img
+              class="search"
+              src="./src/assets/imgs/icon/search.svg"
+              alt="/"
+            />
+            <img class="user" src="./src/assets/imgs/icon/user.svg" alt="/" />
+            <img src="./src/assets/imgs/icon/favorite.svg" alt="/" />
+            <img src="./src/assets/imgs/icon/store.svg" alt="/" />
+          </div>
+        </div>
+      </div>
+      <div class="banner_content">
+        <picture>
+          <source
+            srcset="./src/assets/imgs/fon-small.png"
+            alt="/"
+            media="(max-width: 375px)"
+          />
+          <img src="./src/assets/imgs/fon.png" alt="/" />
+        </picture>
+      </div>
+      <div class="banner_text">
+        <h1>Новая коллекция</h1>
+        <hr />
+        <p>
+          СМОТРЕТЬ НОВИНКИ
+          <span>
+            <img src="./src/assets/imgs/icon/right-arrow.png" alt="/" />
+          </span>
+        </p>
+      </div>
+    </div>
+    <script src="./script/index.js"></script>
+  </body>
+</html>
