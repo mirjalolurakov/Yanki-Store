@@ -8,14 +8,84 @@
     <title>Yanki</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 </head>
 
 <body>
+
+    <div class="header_banner">
+        <div class="header">
+            <div class="header_content wrapper">
+                <div class="menu_btn">
+                    <button class="burger_menu open_menu">
+                        <span class="first_line"></span>
+                        <span class="second_line"></span>
+                        <span class="third_line"></span>
+                    </button>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>NEW</li>
+                        <li>КАТАЛОГ</li>
+                        <li>О НАС</li>
+                    </ul>
+                </div>
+                <!-- Responsive menu -->
+                <div class="modal_bg"></div>
+                <div class="modal_content">
+                    <div class="modal_txt ">
+                        <ul id="ul">
+                            <li>NEW</li>
+                            <li>КАТАЛОГ</li>
+                            <li>О НАС</li>
+                        </ul>
+                    </div>
+                    <div class="close_menu">
+                        <button class="close_btn">close</button>
+
+                    </div>
+                </div>
+                <!-- Responsive menu -->
+                <div class="languages">
+                    <h1 class="header_heading">YANKI</h1>
+                    <div class="first_language">
+                        <span>RU</span>
+                        <img src="./src/assets/icons/down.svg" alt="/">
+                    </div>
+                    <div>
+                        <span class="second_language">UAH</span>
+                        <img class="second_language" src="./src/assets//icons/down.svg" alt="/">
+                    </div>
+                </div>
+                <div class="icons">
+                    <img class="search" src="./src/assets/icons/search.svg" alt="/">
+                    <img class="user" src="./src/assets/icons/user.svg" alt="/">
+                    <img src="./src/assets/icons/favorite.svg" alt="/">
+                    <img src="./src/assets/icons/store.svg" alt="/">
+                </div>
+            </div>
+        </div>
+
+        <div class="banner_content wrapper">
+
+            <div class="banner_fons ">
+                <img src="./src/assets/image/jacket.jpg" alt="/">
+                <img src="./src/assets/image/jacket2.jpg" alt="/">
+                <img src="./src/assets/image/jacket.jpg" alt="/">
+            </div>
+
+        </div>
+
+    </div>
+
     <body>
     <div class="header_banner">
       <div class="header">
@@ -89,9 +159,10 @@
         <h1>Категроии</h1>
     </div>
 
-    <div class="wrapper">
+    <div class="carousel_content wrapper">
         <i id="left" class="fa-solid fa-angle-left"></i>
-        <div class="carousel">
+
+        <div class="carousel  title">
             <img src="src/assets/image/jacket.jpg" alt="img" draggable="false">
             <img src="src/assets/image/coat.jpg" alt="img" draggable="false">
             <img src="src/assets/image/fur.jpg" alt="img" draggable="false">
@@ -104,6 +175,7 @@
 
         </div>
         <i id="right" class=" fa-arrow-right"></i>
+
     </div>
     <div class="novelty wrapper">
         <div class="novelty_title">
