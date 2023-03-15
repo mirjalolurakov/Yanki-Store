@@ -94,3 +94,29 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+let openMenu = document.querySelector(".open_menu");
+let closeMenu = document.querySelector(".close_menu");
+let menu = document.querySelector("#ul");
+let modalContent = document.querySelector(".modal_content");
+let modalBg = document.querySelector(".modal_bg");
+
+openMenu.onclick = () => {
+    menu.style.display = "block";
+    modalContent.style.display = "block";
+    modalBg.style.display = "block";
+
+    setTimeout(() => {
+        modalContent.style.opacity = "1";
+        modalBg.style.opacity = "1";
+    }, 200);
+};
+closeMenu.onclick = () => {
+    modalContent.style.opacity = "0";
+    modalBg.style.opacity = "0";
+    setTimeout(() => {
+        menu.style.display = "none";
+        modalContent.style.display = "none";
+        modalBg.style.display = "none";
+    }, 200);
+};
